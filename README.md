@@ -9,7 +9,7 @@ A reusable Django app for simply implementing a advance CRUD on any Model. Go he
 
 Quick start
 -----------
-1. Install Srvup Comments & Dependancies:
+1. Install msb-dynamic-crud Comments & Dependancies:
 
     ```
     pip install msb-dynamic-crud django djangorestframework django-cors-headers
