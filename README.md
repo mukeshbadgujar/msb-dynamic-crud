@@ -63,15 +63,15 @@ Quick start
 
     ```
 
-4. Add the following to `ROOT_URLCONF`:
-       ```
+4. Add the following to ROOT_URLCONF
+    ```
        from django.conf.urls import url, include
        urlpatterns = [
            ...
            url(r'^product$', views.product_list),
            url(r'^product/(?P<pk>[0-9]+)$', views.products_detail),
        ]
-       ```
+   ```
 5. Views
    ```
    @api_view(['GET', 'POST']) 
