@@ -3,6 +3,8 @@ MANIFEST.in
 README.rst
 setup.py
 docs/blank.txt
+msb-dynamic-crud/__init__.py
+msb-dynamic-crud/msbdynamiccrud.py
 msb_dynamic_crud.egg-info/PKG-INFO
 msb_dynamic_crud.egg-info/SOURCES.txt
 msb_dynamic_crud.egg-info/dependency_links.txt

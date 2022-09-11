@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: msb-dynamic-crud
-Version: 0.0.1
+Version: 0.0.3
 Summary: A reusable Django app for simply implementing a advance CRUD on any Model
 Home-page: https://github.com/mukeshbadgujar/msb-dynamic-crud
 Author: Mukesh Badgujar
