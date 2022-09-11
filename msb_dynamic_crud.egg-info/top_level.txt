@@ -1,1 +1,1 @@
-msb-dynamic-crud
+msb_dynamic_crud

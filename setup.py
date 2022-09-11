@@ -8,8 +8,8 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='msb-dynamic-crud',
-    version='0.0.3',
+    name='msb_dynamic_crud',
+    version='0.0.5',
     packages=find_packages(),
     include_package_data=True,
     license='MIT License',  # example license
