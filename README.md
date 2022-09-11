@@ -56,6 +56,8 @@ Quick start
        product_desc = models.TextField(blank=True, null=True)
        is_active = models.BooleanField(default=True,  null=False, unique=False)
    ```
-   
+
 For Test on Postman 
 https://documenter.getpostman.com/view/13676001/2s7YYmhnSU
+
+## more detail docs will be posted later
