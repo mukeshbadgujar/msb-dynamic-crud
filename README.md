@@ -1,6 +1,8 @@
 
 msb-dynamic-crud
 =====
+Install
+```pip install msb-dynamic-crud==0.0.1```
 
 A reusable Django app for simply implementing a advance CRUD on any Model. Go here to get started: https://github.com/mukeshbadgujar/msb-dynamic-crud
 
