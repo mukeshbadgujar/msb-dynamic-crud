@@ -14,56 +14,7 @@ Quick start
     ```
     pip install msb-dynamic-crud django djangorestframework django-cors-headers
     ```
-    
 
-2. Add "msb-dynamic-crud" to your INSTALLED_APPS setting like this:
-
-    ```
-    INSTALLED_APPS = [
-        ...
-        'corsheaders', 
-        'rest_framework',
-        'msb-dynamic-crud',
-    ]
-    ```
-
-3. Implement Django Dependancy Settings:
-    - [Django Rest Framework](http://www.django-rest-framework.org/)
-    - [Django Cors Headers](https://github.com/ottoyiu/django-cors-headers)
-
-    Such as:
-    ```
-    MIDDLEWARE = [
-        ...
-        'django.contrib.sessions.middleware.SessionMiddleware',
-        'corsheaders.middleware.CorsMiddleware',
-        'django.middleware.common.CommonMiddleware',
-        ...
-    ]
-
-    REST_FRAMEWORK = {
-        'DEFAULT_PERMISSION_CLASSES': (
-            'rest_framework.permissions.IsAuthenticated',
-            'rest_framework.permissions.IsAuthenticatedOrReadOnly',
-        ),
-        'DEFAULT_AUTHENTICATION_CLASSES': (
-            'rest_framework.authentication.SessionAuthentication',
-        ),
-        'DEFAULT_RENDERER_CLASSES': (
-            'rest_framework.renderers.JSONRenderer',
-            'rest_framework.renderers.BrowsableAPIRenderer',
-        )
-    }
-
-
-
-    CORS_URLS_REGEX = r'^/api.*'
-    CORS_ORIGIN_ALLOW_ALL = True
-    CORS_ORIGIN_WHITELIST = (
-        '*',
-    )
-
-    ```
 
 4. Add the following to ROOT_URLCONF
     ```
